@@ -1,0 +1,13 @@
+scalar Date
+
+type Issue {
+    summary: String!,
+    assiggneeName: String!,
+    estimatedHours: Float,
+    actualHours: Float,
+
+}
+
+type Query {
+    issues: [Issue]
+}

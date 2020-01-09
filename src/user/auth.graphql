@@ -1,0 +1,12 @@
+type Auth {
+    username: String!
+    token: String!
+}
+
+type Query {
+    whoami: User!
+}
+
+type Mutation {
+    login(email: String!): Auth
+}

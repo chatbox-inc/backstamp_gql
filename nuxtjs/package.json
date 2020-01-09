@@ -1,0 +1,24 @@
+{
+  "name": "nuxtjs",
+  "version": "1.0.0",
+  "description": "My riveting Nuxt.js project",
+  "author": "mikakane",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc19",
+    "apollo-link-http": "^1.5.16",
+    "graphql-tag": "^2.10.1",
+    "nuxt": "^2.0.0",
+    "type-graphql": "^0.17.6",
+    "vuex-persistedstate": "^2.7.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.5.5"
+  }
+}
