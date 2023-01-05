@@ -14,7 +14,7 @@
     "@nuxtjs/apollo": "^4.0.0-rc19",
     "apollo-link-http": "^1.5.16",
     "graphql-tag": "^2.10.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "type-graphql": "^0.17.6",
     "vuex-persistedstate": "^2.7.0"
   },
